@@ -1,0 +1,20 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 117, 221);
+    margin: 200px auto;
+    position: relative;
+    animation: ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+     0%{background-color: darkblue; left: 0; top: 0 ;}
+     25%{background-color: darkred; left: 300px; top: 0 ;}
+     50%{background-color: darkgoldenrod; left: 300px; top: 300px ;}
+     75%{background-color: darkgreen; left: 0; top: 300px ;}
+     100%{background-color: darkorange; left: 0; top: 0 ;}
+
+}
